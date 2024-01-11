@@ -1,6 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import myImg from "../../Assets/avatar.svg";
+import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -16,19 +16,27 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LET ME INTRODUCE MYSELF! 
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
+            Hi there, Welcome! My name is Shraddha, and I'm an enthusiastic undergraduate majoring in <i> <b className="purple">
+            Computer Science Engineering.
+            </b> </i> Combining the elegance of art with the logic of code has been an exciting and rewarding adventure for me in the technological realm.
+            While interning, I immersed myself in the world of web development and honed my abilities using languages like <i><b className="purple">JavaScript</b></i> and<i> <b className="purple">React</b></i>.
+            <br /><br />
+            The rhythmic skill of <i><b className="purple">Kathak</b></i> dancing brings me delight and allows me to express myself outside the sphere of technology.
+            My technical pursuits and the discipline and grace I learned in dancing work hand in hand, allowing me to tackle problems from every angle.
+            As part of my desire to give back, I volunteer my time at <i><b className="purple">Aakanksha</b></i>, an NGO that means a lot to me, teaching math and English to elementary school students.<br /><br />
+            
+Come with me as we explore a world where code and dance intertwine, and where each keystroke adds to a story of strength and progress.
+              {/* I fell in love with programming and I have at least learnt
               something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
+              I am fluent in classics like */}
+              {/* <i>
                 <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
+              </i> */}
+              
+              {/* My field of Interest's are building new &nbsp;
               <i>
                 <b className="purple">Web Technologies and Products </b> and
                 also in areas related to{" "}
@@ -49,7 +57,7 @@ function Home2() {
               &nbsp; like
               <i>
                 <b className="purple"> React.js and Next.js</b>
-              </i>
+              </i> */}
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -66,28 +74,28 @@ function Home2() {
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
-                <a
-                  href="https://github.com/soumyajit4419"
+                {/* <a
+                  href="https://github.com/1912Shraddha"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiFillGithub />
-                </a>
+                </a> */}
               </li>
               <li className="social-icons">
-                <a
+                {/* <a
                   href="https://twitter.com/Soumyajit4419"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
                   <AiOutlineTwitter />
-                </a>
+                </a> */}
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/feed/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,7 +105,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/_sheeenuu_?igsh=YTFvYnk3czZ5MHUw"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"

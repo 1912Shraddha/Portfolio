@@ -7,11 +7,11 @@ html {
 
   --image-gradient: linear-gradient(
     to bottom left,
-    rgba(17, 16, 16, 0.678),
-    rgba(12, 10, 22, 0.863)
+    rgba(9, 9, 9, 0.678),
+    rgba(5, 5, 5, 0.863)
   );
 
-  --imp-text-color: #c770f0;
+  --imp-text-color: #b52643;
 }
 
 .purple {
@@ -62,7 +62,7 @@ button:focus {
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgba(178, 121, 216, 0.959);
+  background: rgba(244, 244, 245, 0.959);
   border-radius: 12px;
 }
 
@@ -257,7 +257,7 @@ button:focus {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  /* background-image: var(--image-gradient), url(./Assets/home-bg.jpg); */
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -281,12 +281,12 @@ button:focus {
 }
 
 .main-name {
-  color: #cd5ff8;
+  color: #b52643;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #be6adf !important;
+  color: #b52643 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
@@ -501,7 +501,7 @@ button:focus {
 .blog-card-view:hover {
   transform: scale(1.02) !important;
   overflow: hidden !important;
-  box-shadow: 0 3px 3px 5px rgba(155, 88, 173, 0.65) !important;
+  box-shadow: 0 3px 3px 5px rgba(173, 88, 88, 0.65) !important;
 }
 
 .card-img-top {
