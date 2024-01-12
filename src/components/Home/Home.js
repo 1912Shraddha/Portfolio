@@ -4,7 +4,7 @@ import homeLogo from "../../Assets/home-main.jpg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
-import bgimage from "/Users/shraddhadayanand/Portfolio/src/Assets/background.jpg";
+// import bgimage from "/Users/shraddhadayanand/Portfolio/src/Assets/background.jpg";
 
 function Home() {
   return (
